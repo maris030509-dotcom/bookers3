@@ -10,7 +10,6 @@
 
   <tbody>
     <tr>
-      
       <% @users.each do |user| %>
         <td><%= image_tag user.get_profile_image(80,80), class: "profile-img" %></td>
         <td><%= user.name %></td>
